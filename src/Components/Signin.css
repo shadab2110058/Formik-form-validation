@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./image/background_image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.signInText{
+    color: white;
+    height: 2rem;
+    width: 6rem;
+   
+    border-radius: 15px;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(250,107,81);
+    height: 2.5rem;
+    width: 7rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.signInDiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+.checkAccount{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.input{
+    height: 2rem;
+    
+}
+
+.span{
+    color: blue;
+    font-weight: bold;
+}
+
+.key{
+    position: relative;
+    top: 1.7rem;
+    left: .3rem;
+    width: fit-content;
+}
+
+.Icon2{
+    position: relative;
+    left: 18rem;
+    bottom: 2rem;
+    width: fit-content;
+}
